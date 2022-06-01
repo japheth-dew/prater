@@ -1,0 +1,12 @@
+#nav{
+    background-image: linear-gradient(to right, rgb(253, 204, 211),
+     rgb(252, 160, 154), rgb(255, 204, 158), rgb(152, 221, 173), rgb(129, 215, 236), rgb(145, 193, 237), rgb(160, 170, 237));
+ color: rgb(15, 42, 67)
+
+    }
+
+#button:hover{
+       background-image: linear-gradient(to right, rgb(253, 204, 211),
+     rgb(252, 160, 154), rgb(255, 204, 158), rgb(152, 221, 173), rgb(129, 215, 236), rgb(145, 193, 237), rgb(160, 170, 237));
+
+}
