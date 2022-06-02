@@ -2,14 +2,14 @@ import React from 'react';
 import { BsSearch } from "react-icons/bs"
 import { motion } from 'framer-motion'
 import "./Showcase.css"
-import WalletAddress from './WalletAddress';
-// import rhino from '../../images/rhino.png'
+
+import rhino from '../../images/rhino.png'
 
 const Showcase = () => {
     return (
-        <section id='showcase' className=' text-[#0f2a43]'>
-            <div className='flex  md:flex-row flex-col items-center gap-[3rem] '>
-                <div className='p-[5rem]' >
+        <section id='showcase' className=' text-[#0f2a43] p-[5rem]'>
+            <div className='flex  md:flex-row flex-col items-start gap-[3rem] '>
+                <div className='' >
                     <p className='text-[1.2rem] font-semibold md:hidden my-[2rem]'>Staking Launchpad</p>
                     <p className='md:leading-[4rem] leading-[2.5rem]  text-[35px] md:text-[50px] font-[600]' >
                         Become a validator and help secure the future of Ethereum
@@ -19,12 +19,12 @@ const Showcase = () => {
                     </p>
                 </div>
 
-                    <WalletAddress />
+                   
                
 
-                {/* <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center'>
                     <img className='md:w-[35rem] w-[50%]' src={rhino} alt="rhino" />
-                </div> */}
+                </div>
             </div>
 
             <div className='flex md:flex-row flex-col gap-6 mt-[3rem]'>
