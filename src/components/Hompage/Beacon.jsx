@@ -7,7 +7,7 @@ import usdt from '../../images/usdt.png'
 
 const Beacon = () => {
     return (
-        <section id='showcase' className='p-[5rem] text-[#0f2a43] bg-red-100 md:m-0 m-[1rem] rounded-md'>
+        <section id='showcase' className='md:p-[5rem] p-[1rem] text-[#0f2a43] bg-red-100 md:m-0 m-[1rem] rounded-md'>
             <div>
                 <p className='text-[32px] font-semibold mb-[1.5rem]'>Staking Option</p>
 
@@ -53,9 +53,9 @@ const Beacon = () => {
                             <hr className='border-[1px]' />
                             <div className='flex flex-col gap-2 my-[.5rem]'>
                                 <input className='px-2 py-1 rounded-md' type="text" placeholder='USDT Amount' />
-                                <motion.button 
-                                whileHover={{scale: .95}}
-                                className='bg-red-500 py-2 text-white text-bold text-[13px] rounded-md '>Stake Now</motion.button>
+                                <motion.button
+                                    whileHover={{ scale: .95 }}
+                                    className='bg-red-500 py-2 text-white text-bold text-[13px] rounded-md '>Stake Now</motion.button>
                             </div>
 
                         </div>

@@ -7,7 +7,7 @@ import rhino from '../../images/rhino.png'
 
 const Showcase = () => {
     return (
-        <section id='showcase' className=' text-[#0f2a43] p-[5rem]'>
+        <section id='showcase' className=' text-[#0f2a43] md:p-[5rem] p-[1rem]'>
             <div className='flex  md:flex-row flex-col items-start gap-[3rem] '>
                 <div className='' >
                     <p className='text-[1.2rem] font-semibold md:hidden my-[2rem]'>Staking Launchpad</p>
@@ -19,8 +19,8 @@ const Showcase = () => {
                     </p>
                 </div>
 
-                   
-               
+
+
 
                 <div className='flex flex-col items-center'>
                     <img className='md:w-[35rem] w-[50%]' src={rhino} alt="rhino" />
