@@ -2,7 +2,7 @@ import React from 'react'
 
 const Beacon = () => {
     return (
-        <section className='p-[5rem] text-[#0f2a43]'>
+        <section className='p-[5rem] text-[#0f2a43] bg-red-100 md:m-0 m-[1rem] rounded-md'>
             <div>
                 <p className='text-[32px] font-semibold mb-[3rem]'>The Beacon Chain</p>
 
